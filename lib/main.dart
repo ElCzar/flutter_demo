@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_demo/providers/MainState.dart';
-import 'package:flutter_application_demo/screens/screenAlternative.dart';
-import 'package:flutter_application_demo/screens/screenMain.dart';
+import 'package:flutter_demo/providers/MainState.dart';
+import 'package:flutter_demo/screens/screenAlternative.dart';
+import 'package:flutter_demo/screens/screenMain.dart';
 import 'package:provider/provider.dart';
 
 void main() {

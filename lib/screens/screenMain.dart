@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_demo/providers/MainState.dart';
-import 'package:flutter_application_demo/screens/screenAlternative.dart';
+import 'package:flutter_demo/providers/MainState.dart';
+import 'package:flutter_demo/screens/screenAlternative.dart';
 import 'package:provider/provider.dart';
 
 class ScreenMain extends StatefulWidget {
@@ -40,7 +40,7 @@ class _ScreenMainState extends State<ScreenMain> {
             Padding(
               padding: const EdgeInsets.only(bottom: 40),
               child: ClipRRect(
-                borderRadius: BorderRadius.circular(300),
+                borderRadius: BorderRadius.circular(800),
                 child: Image.asset(
                   'assets/images/descarga.jpg',
                   height: 200,
